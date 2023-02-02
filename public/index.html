@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gridster</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <body>
+    <section>
+      <img src="Gridster-Logo.png" class="main-logo" />
+    </section>
+    <div class="navbar">
+      <div class="row-container">
+        <label for="row">Rows: </label>
+        <input
+          class="input-row"
+          id="row"
+          type="number"
+          value="10"
+          min="1"
+          max="20"
+        />
+      </div>
+
+      <div class="separator-x">x</div>
+
+      <div class="column-container">
+        <label for="column">Columns: </label>
+        <input
+          class="input-column"
+          id="column"
+          type="number"
+          value="10"
+          min="1"
+          max="20"
+        />
+      </div>
+
+      <button class="nav-button" id="update">Generate</button>
+    </div>
+    <div class="grid"></div>
+  </body>
+</html>

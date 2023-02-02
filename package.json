@@ -1,0 +1,22 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "A solution to TeleSoft code challenge",
+  "main": "server.js",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "nodemonConfig": {
+    "ext": "js,html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "pathfinding": "^0.4.18"
+  }
+}
